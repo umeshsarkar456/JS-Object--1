@@ -11,7 +11,7 @@ class shape{
         return {drawShape:this.drawShape,calculateArea:this.calculateArea,color:this.calculateArea};
     }
     enrollDrawing(color){
-        this.color.push(color)
+        this.color.push("red")
     }
     getDrawingList(){
         return this.drawingList;
