@@ -2,7 +2,7 @@ class shape{
     constructor(drawShape,calculateArea,color){
         this.drawShape=drawShape;
         this.calculateArea=calculateArea;
-        this.color=color;
+        this.color="red";
     }
 
     drawingList = [];
